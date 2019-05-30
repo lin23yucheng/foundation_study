@@ -52,8 +52,4 @@ if __name__ == '__main__':
     print(b)
     a = ('语法错误无效语法')
     print(a[0:4])
-    print(a[-4:])
-    print(a[::-4])
-    print(a[::-3])
-    print(a[::-2])
     print(a[::-1])
