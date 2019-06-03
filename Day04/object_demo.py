@@ -27,7 +27,7 @@ class lolo(lol):
 
     def do_test(self):
         print(self.name+'在点塔')
-        self.play()       `
+        self.play()
 
 if __name__ == '__main__':
     # lin=lol('凯隐','战士','打野')
