@@ -15,6 +15,12 @@ def jiujiu():
             print('%s * %s = %s'%(j,i,j*i),end='   ')
         print('')
 
+def jjcfb():
+    for i in range(1,10):
+        for k in range(1,i+1):
+            print('%s * %s = %s'%(k,i,k*i),end='    ')
+        print('')
+
 # 求两个数之间的偶数和
 def sum_demo1(a,b):
     sum = 0
@@ -83,6 +89,27 @@ def jidan2():
         if i % 9 != 0:
             continue
         print(i)
+
+
+def paixu():
+    alist=[12,59,63,1,52,41,30,20,5]
+    for i in range(len(alist)-1):
+        for k in range(len(alist)-i-1):
+            if alist[k]>alist[k+1]:
+                temp=alist[k]
+                alist[k]=alist[k+1]
+                alist[k+1]=temp
+    print(alist)
+
+def paixu2():
+    A=[5,6,2,0,3,4,8,1]
+    for i in range(len(A)-1):
+        for j in range(len(A)-i-1):
+            if A[j]>A[j+1]:
+                B=A[j]
+                A[j]=A[j+1]
+                A[j+1]=B
+    print(A)
 if __name__ == '__main__':
     # sum_demo()
     # jiujiu()
@@ -90,4 +117,7 @@ if __name__ == '__main__':
     # jishuhe(1,10)
     # jidan()
     # jidan2()
-    zijizuo()
+    # zijizuo()
+    # paixu()
+    # paixu2()
+    jjcfb()
