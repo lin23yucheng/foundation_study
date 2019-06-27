@@ -11,13 +11,12 @@ def assert_str():
     b='完全可以'
     c='不可以'
     try:
-        assert a in b
-        assert '可以'== '可以'
-        assert b not in c
+        assert b in c
+        # assert '可以'== '可以'
+        # assert b not in c
 
     except:
         print('断言炸了')
 
 if __name__ == '__main__':
-   # assert_int()
-    assert_str()
+   assert_str()

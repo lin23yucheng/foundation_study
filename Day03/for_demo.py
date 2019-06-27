@@ -10,9 +10,9 @@ def lianxi():
         print(i)
 def for_for():
     for lin in range(5):
-        print('gg',end=' ')
+        print('gg',end='.')
         for yu in range(3):
-            print('mm',end=' ')
+            print('mm',end=',')
 
 if __name__ == '__main__':
     # for_demo()

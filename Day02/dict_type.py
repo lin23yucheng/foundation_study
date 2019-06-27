@@ -36,8 +36,8 @@ def dict_zhuanhuan():
     print(type(lll))
 
 if __name__ == '__main__':
-    dict_sel()
+    # dict_sel()
     # dict_updat()
     # dict_del()
-    # dict_add()
+    dict_add()
     # dict_zhuanhuan()

@@ -1,9 +1,9 @@
 
 
 def if_demo():
-    a = 5*3 >= 15
+    a =  15
 
-    if a :
+    if a > 20 :
         print(True)
     else:
         print(False)
